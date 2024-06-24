@@ -1,4 +1,5 @@
-﻿namespace FunApplication.Forms
+﻿
+namespace FunApplication.Forms
 {
     partial class SearchForm
     {
@@ -43,17 +44,6 @@
             surnameBox = new TextBox();
             nameBox = new TextBox();
             menuStrip1 = new MenuStrip();
-            файлToolStripMenuItem = new ToolStripMenuItem();
-            открытьToolStripMenuItem = new ToolStripMenuItem();
-            toolStripSeparator = new ToolStripSeparator();
-            сохранитьToolStripMenuItem = new ToolStripMenuItem();
-            toolStripSeparator1 = new ToolStripSeparator();
-            toolStripSeparator2 = new ToolStripSeparator();
-            выходToolStripMenuItem = new ToolStripMenuItem();
-            справкаToolStripMenuItem = new ToolStripMenuItem();
-            toolStripSeparator5 = new ToolStripSeparator();
-            опрограммеToolStripMenuItem = new ToolStripMenuItem();
-            козловСергійПЗПІ238ДовідникФанатаToolStripMenuItem = new ToolStripMenuItem();
             додатиСпортсменаToolStripMenuItem = new ToolStripMenuItem();
             sportsmanBindingSource = new BindingSource(components);
             panel2 = new Panel();
@@ -106,7 +96,7 @@
             searchButton.Name = "searchButton";
             searchButton.Size = new Size(120, 42);
             searchButton.TabIndex = 5;
-            searchButton.Text = "Пошук";
+            searchButton.Text = "Search";
             searchButton.UseVisualStyleBackColor = false;
             searchButton.Click += searchButton_Click;
             // 
@@ -144,9 +134,9 @@
             label23.Font = new Font("Segoe Print", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 204);
             label23.Location = new Point(16, 90);
             label23.Name = "label23";
-            label23.Size = new Size(239, 37);
+            label23.Size = new Size(169, 37);
             label23.TabIndex = 16;
-            label23.Text = "Введіть вид спорту";
+            label23.Text = "Enter a sport ";
             // 
             // clubBox
             // 
@@ -161,9 +151,9 @@
             label7.Font = new Font("Segoe Print", 15.75F, FontStyle.Bold);
             label7.Location = new Point(13, 180);
             label7.Name = "label7";
-            label7.Size = new Size(284, 37);
+            label7.Size = new Size(240, 37);
             label7.TabIndex = 14;
-            label7.Text = " Введіть Клуб\\Команда";
+            label7.Text = "Enter a club or team";
             // 
             // countryBox
             // 
@@ -180,9 +170,9 @@
             label2.Font = new Font("Segoe Print", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.Location = new Point(16, 9);
             label2.Name = "label2";
-            label2.Size = new Size(152, 37);
+            label2.Size = new Size(171, 37);
             label2.TabIndex = 1;
-            label2.Text = "Введіть ім'я";
+            label2.Text = "Enter a name ";
             // 
             // label5
             // 
@@ -190,9 +180,9 @@
             label5.Font = new Font("Segoe Print", 15.75F, FontStyle.Bold);
             label5.Location = new Point(13, 134);
             label5.Name = "label5";
-            label5.Size = new Size(387, 37);
+            label5.Size = new Size(378, 37);
             label5.TabIndex = 10;
-            label5.Text = "Введіть рідну країну спортсмена";
+            label5.Text = "Enter the athlete's home country ";
             // 
             // label3
             // 
@@ -200,9 +190,9 @@
             label3.Font = new Font("Segoe Print", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 204);
             label3.Location = new Point(16, 53);
             label3.Name = "label3";
-            label3.Size = new Size(205, 37);
+            label3.Size = new Size(216, 37);
             label3.TabIndex = 2;
-            label3.Text = "Введіть фамілію";
+            label3.Text = "Enter a last name ";
             // 
             // surnameBox
             // 
@@ -222,86 +212,12 @@
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { файлToolStripMenuItem, справкаToolStripMenuItem, додатиСпортсменаToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { додатиСпортсменаToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(1200, 24);
             menuStrip1.TabIndex = 9;
             menuStrip1.Text = "menuStrip1";
-            // 
-            // файлToolStripMenuItem
-            // 
-            файлToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { открытьToolStripMenuItem, toolStripSeparator, сохранитьToolStripMenuItem, toolStripSeparator1, toolStripSeparator2, выходToolStripMenuItem });
-            файлToolStripMenuItem.Name = "файлToolStripMenuItem";
-            файлToolStripMenuItem.Size = new Size(48, 20);
-            файлToolStripMenuItem.Text = "&Файл";
-            // 
-            // открытьToolStripMenuItem
-            // 
-            открытьToolStripMenuItem.Image = (Image)resources.GetObject("открытьToolStripMenuItem.Image");
-            открытьToolStripMenuItem.ImageTransparentColor = Color.Magenta;
-            открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
-            открытьToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.O;
-            открытьToolStripMenuItem.Size = new Size(165, 22);
-            открытьToolStripMenuItem.Text = "&Відкрити";
-            открытьToolStripMenuItem.Click += открытьToolStripMenuItem_Click;
-            // 
-            // toolStripSeparator
-            // 
-            toolStripSeparator.Name = "toolStripSeparator";
-            toolStripSeparator.Size = new Size(162, 6);
-            // 
-            // сохранитьToolStripMenuItem
-            // 
-            сохранитьToolStripMenuItem.Image = (Image)resources.GetObject("сохранитьToolStripMenuItem.Image");
-            сохранитьToolStripMenuItem.ImageTransparentColor = Color.Magenta;
-            сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
-            сохранитьToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.S;
-            сохранитьToolStripMenuItem.Size = new Size(165, 22);
-            сохранитьToolStripMenuItem.Text = "&Зберегти";
-            сохранитьToolStripMenuItem.Click += сохранитьToolStripMenuItem_Click;
-            // 
-            // toolStripSeparator1
-            // 
-            toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(162, 6);
-            // 
-            // toolStripSeparator2
-            // 
-            toolStripSeparator2.Name = "toolStripSeparator2";
-            toolStripSeparator2.Size = new Size(162, 6);
-            // 
-            // выходToolStripMenuItem
-            // 
-            выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            выходToolStripMenuItem.Size = new Size(165, 22);
-            выходToolStripMenuItem.Text = "Ви&хід";
-            выходToolStripMenuItem.Click += выходToolStripMenuItem_Click;
-            // 
-            // справкаToolStripMenuItem
-            // 
-            справкаToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { toolStripSeparator5, опрограммеToolStripMenuItem });
-            справкаToolStripMenuItem.Name = "справкаToolStripMenuItem";
-            справкаToolStripMenuItem.Size = new Size(65, 20);
-            справкаToolStripMenuItem.Text = "&Справка";
-            // 
-            // toolStripSeparator5
-            // 
-            toolStripSeparator5.Name = "toolStripSeparator5";
-            toolStripSeparator5.Size = new Size(155, 6);
-            // 
-            // опрограммеToolStripMenuItem
-            // 
-            опрограммеToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { козловСергійПЗПІ238ДовідникФанатаToolStripMenuItem });
-            опрограммеToolStripMenuItem.Name = "опрограммеToolStripMenuItem";
-            опрограммеToolStripMenuItem.Size = new Size(158, 22);
-            опрограммеToolStripMenuItem.Text = "&О программе…";
-            // 
-            // козловСергійПЗПІ238ДовідникФанатаToolStripMenuItem
-            // 
-            козловСергійПЗПІ238ДовідникФанатаToolStripMenuItem.Name = "козловСергійПЗПІ238ДовідникФанатаToolStripMenuItem";
-            козловСергійПЗПІ238ДовідникФанатаToolStripMenuItem.Size = new Size(323, 22);
-            козловСергійПЗПІ238ДовідникФанатаToolStripMenuItem.Text = "© Козлов Сергій ПЗПІ-23-8  Довідник фаната";
             // 
             // додатиСпортсменаToolStripMenuItem
             // 
@@ -331,9 +247,9 @@
             label1.Font = new Font("Segoe Print", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
             label1.Location = new Point(15, 15);
             label1.Name = "label1";
-            label1.Size = new Size(200, 28);
+            label1.Size = new Size(142, 28);
             label1.TabIndex = 1;
-            label1.Text = "Знайдені спортсмени :";
+            label1.Text = "Found athletes :";
             // 
             // resultList
             // 
@@ -360,9 +276,9 @@
             label4.Font = new Font("Segoe Print", 15.75F, FontStyle.Bold);
             label4.Location = new Point(16, 9);
             label4.Name = "label4";
-            label4.Size = new Size(145, 37);
+            label4.Size = new Size(133, 37);
             label4.TabIndex = 11;
-            label4.Text = "Спортсмен";
+            label4.Text = "Sportsman";
             // 
             // label17
             // 
@@ -371,9 +287,9 @@
             label17.ForeColor = SystemColors.ControlLightLight;
             label17.Location = new Point(31, 46);
             label17.Name = "label17";
-            label17.Size = new Size(63, 37);
+            label17.Size = new Size(84, 37);
             label17.TabIndex = 24;
-            label17.Text = "Ім'я:";
+            label17.Text = "Name:";
             // 
             // label16
             // 
@@ -382,9 +298,9 @@
             label16.ForeColor = SystemColors.ControlLightLight;
             label16.Location = new Point(31, 86);
             label16.Name = "label16";
-            label16.Size = new Size(123, 37);
+            label16.Size = new Size(118, 37);
             label16.TabIndex = 25;
-            label16.Text = "Прізвище:";
+            label16.Text = "Surname:";
             // 
             // label15
             // 
@@ -393,9 +309,9 @@
             label15.ForeColor = SystemColors.ControlLightLight;
             label15.Location = new Point(31, 132);
             label15.Name = "label15";
-            label15.Size = new Size(57, 37);
+            label15.Size = new Size(62, 37);
             label15.TabIndex = 26;
-            label15.Text = "Вік:";
+            label15.Text = "Age:";
             // 
             // label14
             // 
@@ -404,9 +320,9 @@
             label14.ForeColor = SystemColors.ControlLightLight;
             label14.Location = new Point(31, 177);
             label14.Name = "label14";
-            label14.Size = new Size(89, 37);
+            label14.Size = new Size(92, 37);
             label14.TabIndex = 27;
-            label14.Text = "Зріст:";
+            label14.Text = "Height:";
             // 
             // label13
             // 
@@ -415,9 +331,9 @@
             label13.ForeColor = SystemColors.ControlLightLight;
             label13.Location = new Point(31, 262);
             label13.Name = "label13";
-            label13.Size = new Size(155, 37);
+            label13.Size = new Size(181, 37);
             label13.TabIndex = 28;
-            label13.Text = "Рідна країна:";
+            label13.Text = "Native country:";
             // 
             // label12
             // 
@@ -426,9 +342,9 @@
             label12.ForeColor = SystemColors.ControlLightLight;
             label12.Location = new Point(31, 214);
             label12.Name = "label12";
-            label12.Size = new Size(73, 37);
+            label12.Size = new Size(96, 37);
             label12.TabIndex = 29;
-            label12.Text = "Вага:";
+            label12.Text = "Weight:";
             // 
             // label11
             // 
@@ -437,16 +353,16 @@
             label11.ForeColor = SystemColors.ControlLightLight;
             label11.Location = new Point(31, 313);
             label11.Name = "label11";
-            label11.Size = new Size(187, 37);
+            label11.Size = new Size(138, 37);
             label11.TabIndex = 30;
-            label11.Text = "Клуб\\Команда:";
+            label11.Text = "Club\\Team:";
             // 
             // label21
             // 
             label21.AutoSize = true;
             label21.DataBindings.Add(new Binding("Text", sportsmanListBindingSource, "Name", true));
             label21.Font = new Font("Times New Roman", 14.25F);
-            label21.Location = new Point(91, 57);
+            label21.Location = new Point(121, 57);
             label21.Name = "label21";
             label21.Size = new Size(16, 21);
             label21.TabIndex = 32;
@@ -468,7 +384,7 @@
             label19.AutoSize = true;
             label19.DataBindings.Add(new Binding("Text", sportsmanListBindingSource, "Age", true));
             label19.Font = new Font("Times New Roman", 14.25F);
-            label19.Location = new Point(79, 143);
+            label19.Location = new Point(88, 143);
             label19.Name = "label19";
             label19.Size = new Size(16, 21);
             label19.TabIndex = 34;
@@ -490,7 +406,7 @@
             label9.AutoSize = true;
             label9.DataBindings.Add(new Binding("Text", sportsmanListBindingSource, "Country", true));
             label9.Font = new Font("Times New Roman", 14.25F);
-            label9.Location = new Point(192, 273);
+            label9.Location = new Point(218, 273);
             label9.Name = "label9";
             label9.Size = new Size(16, 21);
             label9.TabIndex = 36;
@@ -501,7 +417,7 @@
             label8.AutoSize = true;
             label8.DataBindings.Add(new Binding("Text", sportsmanListBindingSource, "Weight", true));
             label8.Font = new Font("Times New Roman", 14.25F);
-            label8.Location = new Point(101, 225);
+            label8.Location = new Point(122, 225);
             label8.Name = "label8";
             label8.Size = new Size(16, 21);
             label8.TabIndex = 37;
@@ -532,11 +448,12 @@
             // 
             label18.AutoSize = true;
             label18.Font = new Font("Times New Roman", 14.25F);
-            label18.Location = new Point(135, 225);
+            label18.Location = new Point(153, 225);
             label18.Name = "label18";
             label18.Size = new Size(38, 21);
             label18.TabIndex = 40;
             label18.Text = "- кг";
+            label18.Click += label18_Click;
             // 
             // label22
             // 
@@ -565,9 +482,9 @@
             label26.ForeColor = SystemColors.ControlLightLight;
             label26.Location = new Point(31, 367);
             label26.Name = "label26";
-            label26.Size = new Size(176, 37);
+            label26.Size = new Size(247, 37);
             label26.TabIndex = 43;
-            label26.Text = "Особисті дані:";
+            label26.Text = "Personal information:";
             // 
             // pictureBoxFlag
             // 
@@ -621,13 +538,13 @@
             // buttonGoBackMainForm
             // 
             buttonGoBackMainForm.BackColor = Color.Transparent;
-            buttonGoBackMainForm.BackgroundImage = (Image)resources.GetObject("buttonGoBackMainForm.BackgroundImage");
             buttonGoBackMainForm.BackgroundImageLayout = ImageLayout.Center;
             buttonGoBackMainForm.Cursor = Cursors.Hand;
             buttonGoBackMainForm.FlatAppearance.BorderSize = 0;
             buttonGoBackMainForm.FlatAppearance.MouseDownBackColor = Color.Transparent;
             buttonGoBackMainForm.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonGoBackMainForm.FlatStyle = FlatStyle.Flat;
+            buttonGoBackMainForm.Image = (Image)resources.GetObject("buttonGoBackMainForm.Image");
             buttonGoBackMainForm.Location = new Point(0, 27);
             buttonGoBackMainForm.Name = "buttonGoBackMainForm";
             buttonGoBackMainForm.Size = new Size(57, 56);
@@ -652,8 +569,9 @@
             MaximumSize = new Size(1216, 656);
             MinimumSize = new Size(1216, 656);
             Name = "SearchForm";
-            Text = "Пошук спортсмена";
+            Text = "Sports search";
             FormClosing += SearchForm_FormClosing_1;
+            Load += SearchForm_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             menuStrip1.ResumeLayout(false);
@@ -679,15 +597,6 @@
         private Label label3;
         private Label label2;
         private MenuStrip menuStrip1;
-        private ToolStripMenuItem файлToolStripMenuItem;
-        private ToolStripSeparator toolStripSeparator;
-        private ToolStripMenuItem сохранитьToolStripMenuItem;
-        private ToolStripSeparator toolStripSeparator1;
-        private ToolStripSeparator toolStripSeparator2;
-        private ToolStripMenuItem выходToolStripMenuItem;
-        private ToolStripMenuItem справкаToolStripMenuItem;
-        private ToolStripSeparator toolStripSeparator5;
-        private ToolStripMenuItem опрограммеToolStripMenuItem;
         private TextBox countryBox;
         private Label label5;
         private TextBox clubBox;
@@ -724,8 +633,6 @@
         private Panel panel3;
         private Button buttonGoBackMainForm;
         private BindingSource sportsmanListBindingSource;
-        private ToolStripMenuItem козловСергійПЗПІ238ДовідникФанатаToolStripMenuItem;
-        private ToolStripMenuItem открытьToolStripMenuItem;
         private ToolStripMenuItem додатиСпортсменаToolStripMenuItem;
     }
 }

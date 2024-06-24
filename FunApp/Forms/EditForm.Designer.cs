@@ -113,7 +113,7 @@
             uplButnFlag.Name = "uplButnFlag";
             uplButnFlag.Size = new Size(160, 36);
             uplButnFlag.TabIndex = 79;
-            uplButnFlag.Text = "ЗАВАНТАЖИТИ";
+            uplButnFlag.Text = "UPLOAD";
             uplButnFlag.UseVisualStyleBackColor = false;
             uplButnFlag.Click += uplButnFlag_Click;
             // 
@@ -133,11 +133,11 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe Script", 18F, FontStyle.Bold);
             label2.ForeColor = SystemColors.ActiveCaptionText;
-            label2.Location = new Point(256, 292);
+            label2.Location = new Point(251, 292);
             label2.Name = "label2";
-            label2.Size = new Size(379, 40);
+            label2.Size = new Size(89, 40);
             label2.TabIndex = 66;
-            label2.Text = "Point / рекорд спортсмена";
+            label2.Text = "Point";
             // 
             // pointBox
             // 
@@ -157,7 +157,7 @@
             uploadImgBtn.Name = "uploadImgBtn";
             uploadImgBtn.Size = new Size(198, 39);
             uploadImgBtn.TabIndex = 65;
-            uploadImgBtn.Text = "ЗАВАНТАЖИТИ";
+            uploadImgBtn.Text = "UPLOAD";
             uploadImgBtn.UseVisualStyleBackColor = false;
             uploadImgBtn.Click += uploadImgBtn_Click_1;
             // 
@@ -225,7 +225,7 @@
             closeButton.Name = "closeButton";
             closeButton.Size = new Size(153, 44);
             closeButton.TabIndex = 43;
-            closeButton.Text = "ВІДМІНА";
+            closeButton.Text = "CANCEL";
             closeButton.UseVisualStyleBackColor = false;
             // 
             // label10
@@ -235,9 +235,9 @@
             label10.ForeColor = SystemColors.ActiveCaptionText;
             label10.Location = new Point(251, 366);
             label10.Name = "label10";
-            label10.Size = new Size(206, 40);
+            label10.Size = new Size(296, 40);
             label10.TabIndex = 53;
-            label10.Text = "Особисті дані";
+            label10.Text = "Personal information";
             // 
             // label11
             // 
@@ -246,9 +246,9 @@
             label11.ForeColor = SystemColors.ActiveCaptionText;
             label11.Location = new Point(20, 450);
             label11.Name = "label11";
-            label11.Size = new Size(79, 40);
+            label11.Size = new Size(106, 40);
             label11.TabIndex = 59;
-            label11.Text = "Вага";
+            label11.Text = "Weight";
             // 
             // aboutSportsmanBox
             // 
@@ -274,9 +274,9 @@
             label9.ForeColor = SystemColors.ActiveCaptionText;
             label9.Location = new Point(251, 202);
             label9.Name = "label9";
-            label9.Size = new Size(173, 40);
+            label9.Size = new Size(84, 40);
             label9.TabIndex = 49;
-            label9.Text = "Вид спорту";
+            label9.Text = "Sport";
             // 
             // label12
             // 
@@ -285,9 +285,9 @@
             label12.ForeColor = SystemColors.ActiveCaptionText;
             label12.Location = new Point(20, 366);
             label12.Name = "label12";
-            label12.Size = new Size(97, 40);
+            label12.Size = new Size(114, 40);
             label12.TabIndex = 58;
-            label12.Text = "Зріст";
+            label12.Text = "Height ";
             // 
             // sportBox
             // 
@@ -304,9 +304,9 @@
             label13.ForeColor = SystemColors.ActiveCaptionText;
             label13.Location = new Point(18, 282);
             label13.Name = "label13";
-            label13.Size = new Size(62, 40);
+            label13.Size = new Size(63, 40);
             label13.TabIndex = 56;
-            label13.Text = "Вік";
+            label13.Text = "Age";
             // 
             // label5
             // 
@@ -315,9 +315,9 @@
             label5.ForeColor = SystemColors.ActiveCaptionText;
             label5.Location = new Point(234, 128);
             label5.Name = "label5";
-            label5.Size = new Size(223, 40);
+            label5.Size = new Size(162, 40);
             label5.TabIndex = 46;
-            label5.Text = "Клуб\\Команда";
+            label5.Text = "Сlub\\Team";
             // 
             // ageBox
             // 
@@ -342,9 +342,9 @@
             label7.ForeColor = SystemColors.ActiveCaptionText;
             label7.Location = new Point(240, 46);
             label7.Name = "label7";
-            label7.Size = new Size(193, 40);
+            label7.Size = new Size(224, 40);
             label7.TabIndex = 44;
-            label7.Text = "Рідна країна";
+            label7.Text = "Native country ";
             // 
             // countryBox
             // 
@@ -361,9 +361,9 @@
             label14.ForeColor = SystemColors.ActiveCaptionText;
             label14.Location = new Point(20, 202);
             label14.Name = "label14";
-            label14.Size = new Size(141, 40);
+            label14.Size = new Size(134, 40);
             label14.TabIndex = 50;
-            label14.Text = "Прізвище";
+            label14.Text = "Surname";
             // 
             // surnameBox
             // 
@@ -380,9 +380,9 @@
             label15.ForeColor = SystemColors.ActiveCaptionText;
             label15.Location = new Point(20, 128);
             label15.Name = "label15";
-            label15.Size = new Size(72, 40);
+            label15.Size = new Size(90, 40);
             label15.TabIndex = 48;
-            label15.Text = "Ім'я";
+            label15.Text = "Name";
             // 
             // nameBox
             // 

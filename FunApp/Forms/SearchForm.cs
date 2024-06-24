@@ -1,4 +1,5 @@
-﻿using FunApplication.Models;
+﻿
+using FunApplication.Models;
 
 namespace FunApplication.Forms
 {
@@ -95,7 +96,7 @@ namespace FunApplication.Forms
             pictureBoxFlag.ImageLocation = sportsmanClick.ImageLocationFlag;
         }
 
-       
+
 
         private void buttonGoBackMainForm_Click(object sender, EventArgs e)
         {
@@ -139,6 +140,7 @@ namespace FunApplication.Forms
             }
 
         }
+
 
         private void surnameBox_Validating(object sender, System.ComponentModel.CancelEventArgs e)
         {
@@ -236,6 +238,16 @@ namespace FunApplication.Forms
 
                 sportsmanScript.SaveData(PATH_TO_DATA);
             }
+        }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SearchForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

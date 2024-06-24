@@ -91,13 +91,13 @@
             label1.Font = new Font("Segoe Print", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
             label1.Location = new Point(15, 75);
             label1.Name = "label1";
-            label1.Size = new Size(200, 28);
+            label1.Size = new Size(148, 28);
             label1.TabIndex = 33;
-            label1.Text = "Знайдені спортсмени :";
+            label1.Text = "Found athletes  :";
             // 
             // sportBox
             // 
-            sportBox.Location = new Point(260, 33);
+            sportBox.Location = new Point(190, 33);
             sportBox.Name = "sportBox";
             sportBox.Size = new Size(187, 23);
             sportBox.TabIndex = 32;
@@ -109,9 +109,9 @@
             label23.Font = new Font("Segoe Print", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 204);
             label23.Location = new Point(15, 21);
             label23.Name = "label23";
-            label23.Size = new Size(239, 37);
+            label23.Size = new Size(167, 37);
             label23.TabIndex = 31;
-            label23.Text = "Введіть вид спорту";
+            label23.Text = "Enter a sport:";
             // 
             // resultListRecord
             // 
@@ -126,7 +126,6 @@
             resultListRecord.Size = new Size(367, 152);
             resultListRecord.TabIndex = 22;
             resultListRecord.ValueMember = "Name";
-            
             resultListRecord.DoubleClick += resultListRecord_DoubleClick;
             // 
             // sportsmanListBindingSource
@@ -139,11 +138,11 @@
             searchButton.Cursor = Cursors.Hand;
             searchButton.FlatStyle = FlatStyle.Popup;
             searchButton.Font = new Font("Segoe Print", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            searchButton.Location = new Point(472, 21);
+            searchButton.Location = new Point(432, 21);
             searchButton.Name = "searchButton";
             searchButton.Size = new Size(120, 42);
             searchButton.TabIndex = 20;
-            searchButton.Text = "Пошук";
+            searchButton.Text = "Search";
             searchButton.UseVisualStyleBackColor = false;
             searchButton.Click += searchButton_Click;
             // 
@@ -208,9 +207,9 @@
             label3.ForeColor = SystemColors.ControlLightLight;
             label3.Location = new Point(31, 334);
             label3.Name = "label3";
-            label3.Size = new Size(220, 33);
+            label3.Size = new Size(210, 33);
             label3.TabIndex = 47;
-            label3.Text = "Рекорд спортсмена:";
+            label3.Text = "Sportsman's record:";
             // 
             // textBox1
             // 
@@ -238,9 +237,9 @@
             label26.ForeColor = SystemColors.ControlLightLight;
             label26.Location = new Point(31, 367);
             label26.Name = "label26";
-            label26.Size = new Size(160, 33);
+            label26.Size = new Size(224, 33);
             label26.TabIndex = 43;
-            label26.Text = "Особисті дані:";
+            label26.Text = "Personal information:";
             // 
             // label24
             // 
@@ -248,9 +247,9 @@
             label24.Font = new Font("Times New Roman", 14.25F);
             label24.Location = new Point(111, 143);
             label24.Name = "label24";
-            label24.Size = new Size(36, 21);
+            label24.Size = new Size(70, 21);
             label24.TabIndex = 42;
-            label24.Text = "- р.";
+            label24.Text = "- years .";
             // 
             // label22
             // 
@@ -258,9 +257,9 @@
             label22.Font = new Font("Times New Roman", 14.25F);
             label22.Location = new Point(149, 188);
             label22.Name = "label22";
-            label22.Size = new Size(42, 21);
+            label22.Size = new Size(44, 21);
             label22.TabIndex = 41;
-            label22.Text = "- см";
+            label22.Text = "- cm";
             // 
             // label18
             // 
@@ -268,9 +267,9 @@
             label18.Font = new Font("Times New Roman", 14.25F);
             label18.Location = new Point(135, 225);
             label18.Name = "label18";
-            label18.Size = new Size(38, 21);
+            label18.Size = new Size(39, 21);
             label18.TabIndex = 40;
-            label18.Text = "- кг";
+            label18.Text = "- kg";
             // 
             // pictureBoxFace
             // 
@@ -366,9 +365,9 @@
             label11.ForeColor = SystemColors.ControlLightLight;
             label11.Location = new Point(31, 295);
             label11.Name = "label11";
-            label11.Size = new Size(170, 33);
+            label11.Size = new Size(125, 33);
             label11.TabIndex = 30;
-            label11.Text = "Клуб\\Команда:";
+            label11.Text = "Club\\Team:";
             // 
             // label12
             // 
@@ -377,9 +376,9 @@
             label12.ForeColor = SystemColors.ControlLightLight;
             label12.Location = new Point(31, 214);
             label12.Name = "label12";
-            label12.Size = new Size(67, 33);
+            label12.Size = new Size(87, 33);
             label12.TabIndex = 29;
-            label12.Text = "Вага:";
+            label12.Text = "Weight:";
             // 
             // label13
             // 
@@ -388,9 +387,9 @@
             label13.ForeColor = SystemColors.ControlLightLight;
             label13.Location = new Point(31, 262);
             label13.Name = "label13";
-            label13.Size = new Size(140, 33);
+            label13.Size = new Size(165, 33);
             label13.TabIndex = 28;
-            label13.Text = "Рідна країна:";
+            label13.Text = "Native country:";
             // 
             // label14
             // 
@@ -399,9 +398,9 @@
             label14.ForeColor = SystemColors.ControlLightLight;
             label14.Location = new Point(31, 177);
             label14.Name = "label14";
-            label14.Size = new Size(79, 33);
+            label14.Size = new Size(83, 33);
             label14.TabIndex = 27;
-            label14.Text = "Зріст:";
+            label14.Text = "Height:";
             // 
             // label15
             // 
@@ -410,9 +409,9 @@
             label15.ForeColor = SystemColors.ControlLightLight;
             label15.Location = new Point(31, 132);
             label15.Name = "label15";
-            label15.Size = new Size(52, 33);
+            label15.Size = new Size(57, 33);
             label15.TabIndex = 26;
-            label15.Text = "Вік:";
+            label15.Text = "Age:";
             // 
             // label16
             // 
@@ -421,9 +420,9 @@
             label16.ForeColor = SystemColors.ControlLightLight;
             label16.Location = new Point(31, 86);
             label16.Name = "label16";
-            label16.Size = new Size(112, 33);
+            label16.Size = new Size(108, 33);
             label16.TabIndex = 25;
-            label16.Text = "Прізвище:";
+            label16.Text = "Surname:";
             // 
             // label17
             // 
@@ -432,9 +431,9 @@
             label17.ForeColor = SystemColors.ControlLightLight;
             label17.Location = new Point(31, 46);
             label17.Name = "label17";
-            label17.Size = new Size(58, 33);
+            label17.Size = new Size(76, 33);
             label17.TabIndex = 24;
-            label17.Text = "Ім'я:";
+            label17.Text = "Name:";
             // 
             // label4
             // 
@@ -442,9 +441,9 @@
             label4.Font = new Font("Segoe Print", 15.75F, FontStyle.Bold);
             label4.Location = new Point(16, 9);
             label4.Name = "label4";
-            label4.Size = new Size(145, 37);
+            label4.Size = new Size(133, 37);
             label4.TabIndex = 11;
-            label4.Text = "Спортсмен";
+            label4.Text = "Sportsman";
             // 
             // buttonGoBackMainForm
             // 
