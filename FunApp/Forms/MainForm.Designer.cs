@@ -59,7 +59,7 @@
             buttonToSportsmenRecordForm.Name = "buttonToSportsmenRecordForm";
             buttonToSportsmenRecordForm.Size = new Size(271, 105);
             buttonToSportsmenRecordForm.TabIndex = 2;
-            buttonToSportsmenRecordForm.Text = "Start looking for record-breaking athletes ";
+            buttonToSportsmenRecordForm.Text = "Почати пошук рекордсменів в спорті";
             buttonToSportsmenRecordForm.UseVisualStyleBackColor = false;
             buttonToSportsmenRecordForm.Click += buttonToSportsmenRecordForm_Click;
             // 
@@ -75,7 +75,7 @@
             buttonMainFormToSearch.Name = "buttonMainFormToSearch";
             buttonMainFormToSearch.Size = new Size(271, 105);
             buttonMainFormToSearch.TabIndex = 2;
-            buttonMainFormToSearch.Text = "Start looking for athletes ";
+            buttonMainFormToSearch.Text = "Пошук всіх спортсменів";
             buttonMainFormToSearch.UseVisualStyleBackColor = false;
             buttonMainFormToSearch.Click += buttonMainFormToSearch_Click;
             // 
@@ -102,7 +102,7 @@
             MaximumSize = new Size(1206, 661);
             MinimumSize = new Size(1206, 661);
             Name = "MainForm";
-            Text = "Fan guide ";
+            Text = "Fan App";
             panel3.ResumeLayout(false);
             panel1.ResumeLayout(false);
             ResumeLayout(false);

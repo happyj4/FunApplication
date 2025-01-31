@@ -96,7 +96,7 @@ namespace FunApplication.Forms
             searchButton.Name = "searchButton";
             searchButton.Size = new Size(120, 42);
             searchButton.TabIndex = 5;
-            searchButton.Text = "Search";
+            searchButton.Text = "Пошук";
             searchButton.UseVisualStyleBackColor = false;
             searchButton.Click += searchButton_Click;
             // 
@@ -122,9 +122,9 @@ namespace FunApplication.Forms
             // 
             // sportBox
             // 
-            sportBox.Location = new Point(261, 98);
+            sportBox.Location = new Point(245, 98);
             sportBox.Name = "sportBox";
-            sportBox.Size = new Size(335, 23);
+            sportBox.Size = new Size(351, 23);
             sportBox.TabIndex = 2;
             sportBox.Validating += sportBox_Validating;
             // 
@@ -134,15 +134,15 @@ namespace FunApplication.Forms
             label23.Font = new Font("Segoe Print", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 204);
             label23.Location = new Point(16, 90);
             label23.Name = "label23";
-            label23.Size = new Size(169, 37);
+            label23.Size = new Size(170, 37);
             label23.TabIndex = 16;
-            label23.Text = "Enter a sport ";
+            label23.Text = "Вид спорту -";
             // 
             // clubBox
             // 
-            clubBox.Location = new Point(296, 189);
+            clubBox.Location = new Point(245, 189);
             clubBox.Name = "clubBox";
-            clubBox.Size = new Size(300, 23);
+            clubBox.Size = new Size(351, 23);
             clubBox.TabIndex = 15;
             // 
             // label7
@@ -151,15 +151,15 @@ namespace FunApplication.Forms
             label7.Font = new Font("Segoe Print", 15.75F, FontStyle.Bold);
             label7.Location = new Point(13, 180);
             label7.Name = "label7";
-            label7.Size = new Size(240, 37);
+            label7.Size = new Size(234, 37);
             label7.TabIndex = 14;
-            label7.Text = "Enter a club or team";
+            label7.Text = "Клуб або команда -";
             // 
             // countryBox
             // 
-            countryBox.Location = new Point(406, 146);
+            countryBox.Location = new Point(245, 146);
             countryBox.Name = "countryBox";
-            countryBox.Size = new Size(190, 23);
+            countryBox.Size = new Size(351, 23);
             countryBox.TabIndex = 11;
             countryBox.Validating += countryBox_Validating;
             // 
@@ -170,9 +170,10 @@ namespace FunApplication.Forms
             label2.Font = new Font("Segoe Print", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.Location = new Point(16, 9);
             label2.Name = "label2";
-            label2.Size = new Size(171, 37);
+            label2.Size = new Size(78, 37);
             label2.TabIndex = 1;
-            label2.Text = "Enter a name ";
+            label2.Text = "Ім'я -";
+            label2.Click += label2_Click;
             // 
             // label5
             // 
@@ -180,9 +181,9 @@ namespace FunApplication.Forms
             label5.Font = new Font("Segoe Print", 15.75F, FontStyle.Bold);
             label5.Location = new Point(13, 134);
             label5.Name = "label5";
-            label5.Size = new Size(378, 37);
+            label5.Size = new Size(170, 37);
             label5.TabIndex = 10;
-            label5.Text = "Enter the athlete's home country ";
+            label5.Text = "Рідна країна -";
             // 
             // label3
             // 
@@ -190,23 +191,23 @@ namespace FunApplication.Forms
             label3.Font = new Font("Segoe Print", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 204);
             label3.Location = new Point(16, 53);
             label3.Name = "label3";
-            label3.Size = new Size(216, 37);
+            label3.Size = new Size(138, 37);
             label3.TabIndex = 2;
-            label3.Text = "Enter a last name ";
+            label3.Text = "Прізвище -";
             // 
             // surnameBox
             // 
-            surnameBox.Location = new Point(224, 60);
+            surnameBox.Location = new Point(245, 60);
             surnameBox.Name = "surnameBox";
-            surnameBox.Size = new Size(372, 23);
+            surnameBox.Size = new Size(351, 23);
             surnameBox.TabIndex = 5;
             surnameBox.Validating += surnameBox_Validating;
             // 
             // nameBox
             // 
-            nameBox.Location = new Point(187, 21);
+            nameBox.Location = new Point(245, 21);
             nameBox.Name = "nameBox";
-            nameBox.Size = new Size(409, 23);
+            nameBox.Size = new Size(351, 23);
             nameBox.TabIndex = 1;
             nameBox.Validating += nameBox_Validating;
             // 
@@ -247,9 +248,9 @@ namespace FunApplication.Forms
             label1.Font = new Font("Segoe Print", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
             label1.Location = new Point(15, 15);
             label1.Name = "label1";
-            label1.Size = new Size(142, 28);
+            label1.Size = new Size(166, 28);
             label1.TabIndex = 1;
-            label1.Text = "Found athletes :";
+            label1.Text = "Знайдені атлети :";
             // 
             // resultList
             // 
@@ -264,6 +265,7 @@ namespace FunApplication.Forms
             resultList.TabIndex = 0;
             resultList.ValueMember = "Name";
             resultList.Click += resultList_Click;
+            resultList.SelectedIndexChanged += resultList_SelectedIndexChanged;
             resultList.DoubleClick += resultList_DoubleClick_1;
             // 
             // sportsmanListBindingSource
@@ -276,9 +278,9 @@ namespace FunApplication.Forms
             label4.Font = new Font("Segoe Print", 15.75F, FontStyle.Bold);
             label4.Location = new Point(16, 9);
             label4.Name = "label4";
-            label4.Size = new Size(133, 37);
+            label4.Size = new Size(145, 37);
             label4.TabIndex = 11;
-            label4.Text = "Sportsman";
+            label4.Text = "Спортсмен";
             // 
             // label17
             // 
@@ -287,9 +289,9 @@ namespace FunApplication.Forms
             label17.ForeColor = SystemColors.ControlLightLight;
             label17.Location = new Point(31, 46);
             label17.Name = "label17";
-            label17.Size = new Size(84, 37);
+            label17.Size = new Size(71, 37);
             label17.TabIndex = 24;
-            label17.Text = "Name:";
+            label17.Text = "Ім'я :";
             // 
             // label16
             // 
@@ -298,9 +300,9 @@ namespace FunApplication.Forms
             label16.ForeColor = SystemColors.ControlLightLight;
             label16.Location = new Point(31, 86);
             label16.Name = "label16";
-            label16.Size = new Size(118, 37);
+            label16.Size = new Size(131, 37);
             label16.TabIndex = 25;
-            label16.Text = "Surname:";
+            label16.Text = "Прізвище :";
             // 
             // label15
             // 
@@ -309,9 +311,9 @@ namespace FunApplication.Forms
             label15.ForeColor = SystemColors.ControlLightLight;
             label15.Location = new Point(31, 132);
             label15.Name = "label15";
-            label15.Size = new Size(62, 37);
+            label15.Size = new Size(65, 37);
             label15.TabIndex = 26;
-            label15.Text = "Age:";
+            label15.Text = "Вік :";
             // 
             // label14
             // 
@@ -320,9 +322,9 @@ namespace FunApplication.Forms
             label14.ForeColor = SystemColors.ControlLightLight;
             label14.Location = new Point(31, 177);
             label14.Name = "label14";
-            label14.Size = new Size(92, 37);
+            label14.Size = new Size(97, 37);
             label14.TabIndex = 27;
-            label14.Text = "Height:";
+            label14.Text = "Зріст :";
             // 
             // label13
             // 
@@ -331,9 +333,9 @@ namespace FunApplication.Forms
             label13.ForeColor = SystemColors.ControlLightLight;
             label13.Location = new Point(31, 262);
             label13.Name = "label13";
-            label13.Size = new Size(181, 37);
+            label13.Size = new Size(163, 37);
             label13.TabIndex = 28;
-            label13.Text = "Native country:";
+            label13.Text = "Рідна карїна :";
             // 
             // label12
             // 
@@ -342,9 +344,9 @@ namespace FunApplication.Forms
             label12.ForeColor = SystemColors.ControlLightLight;
             label12.Location = new Point(31, 214);
             label12.Name = "label12";
-            label12.Size = new Size(96, 37);
+            label12.Size = new Size(81, 37);
             label12.TabIndex = 29;
-            label12.Text = "Weight:";
+            label12.Text = "Вага :";
             // 
             // label11
             // 
@@ -353,9 +355,9 @@ namespace FunApplication.Forms
             label11.ForeColor = SystemColors.ControlLightLight;
             label11.Location = new Point(31, 313);
             label11.Name = "label11";
-            label11.Size = new Size(138, 37);
+            label11.Size = new Size(223, 37);
             label11.TabIndex = 30;
-            label11.Text = "Club\\Team:";
+            label11.Text = "Клуб \\ Команада :";
             // 
             // label21
             // 
@@ -373,7 +375,7 @@ namespace FunApplication.Forms
             label20.AutoSize = true;
             label20.DataBindings.Add(new Binding("Text", sportsmanListBindingSource, "Surname", true));
             label20.Font = new Font("Times New Roman", 14.25F);
-            label20.Location = new Point(149, 97);
+            label20.Location = new Point(153, 97);
             label20.Name = "label20";
             label20.Size = new Size(16, 21);
             label20.TabIndex = 33;
@@ -428,11 +430,12 @@ namespace FunApplication.Forms
             label6.AutoSize = true;
             label6.DataBindings.Add(new Binding("Text", sportsmanListBindingSource, "Club", true));
             label6.Font = new Font("Times New Roman", 14.25F);
-            label6.Location = new Point(224, 324);
+            label6.Location = new Point(252, 324);
             label6.Name = "label6";
             label6.Size = new Size(50, 21);
             label6.TabIndex = 38;
             label6.Text = "NON";
+            label6.Click += label6_Click;
             // 
             // pictureBoxFace
             // 
@@ -482,9 +485,9 @@ namespace FunApplication.Forms
             label26.ForeColor = SystemColors.ControlLightLight;
             label26.Location = new Point(31, 367);
             label26.Name = "label26";
-            label26.Size = new Size(247, 37);
+            label26.Size = new Size(304, 37);
             label26.TabIndex = 43;
-            label26.Text = "Personal information:";
+            label26.Text = "Персональна інформація -";
             // 
             // pictureBoxFlag
             // 
@@ -499,7 +502,7 @@ namespace FunApplication.Forms
             // 
             textBox1.DataBindings.Add(new Binding("Text", sportsmanListBindingSource, "aboutSportsman", true));
             textBox1.Enabled = false;
-            textBox1.Location = new Point(42, 406);
+            textBox1.Location = new Point(30, 407);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(441, 131);
